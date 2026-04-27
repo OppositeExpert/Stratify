@@ -1,0 +1,28 @@
+name: stratify
+description: "A Data-Driven Lifestyle Optimization and Time-Based Recommendation System"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.8.4
+  provider: ^6.1.2
+  fl_chart: ^0.70.2
+  intl: ^0.20.2
+  flutter_dotenv: ^5.2.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
